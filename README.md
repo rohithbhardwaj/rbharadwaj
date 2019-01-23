@@ -20,4 +20,10 @@ This repository will given an insight about my own personal Web Application deve
 ## Recommended Resources
 
 
-## Contributors
+## Contributers
+
+My name is Rohith Bharadwaj , major in Applied Computer Science at NWMSU (In Progress)
+
+![Hosted Image](https://i.kinja-img.com/gawker-media/image/upload/me0lb3lxhv1lquj1prbu.jpg "Rohith Bharadwaj")
+
+
