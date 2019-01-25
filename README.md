@@ -1,7 +1,7 @@
 # aboutme
 Going to Start README.md that explains whats this page about.
 
-## My Profile and Repository links:
+## Repository links:
 
 - [Linkedin](https://www.linkedin.com/in/rohith-bharadwaj-39b21a7a/)
 - [Bitbucket](https://bitbucket.org/Rohithbharadwaj/)
@@ -18,7 +18,9 @@ This repository will given an insight about my own personal Web Application deve
 - [Typescript](https://www.typescriptlang.org/index.html/) is an open-source front end scripting language.It is a strict syntactical          superset of JavaScript which adds optional static typing.
 
 ## Recommended Resources
-
+- [Wordpress](https://wordpress.com/) is a ‘anyone can use’ simplified website publishing program.
+- [w3schools](https://www.w3schools.com/) is optimized for learning, testing, and training. Examples might be simplified to improve        reading and basic understanding.
+- [Github Tutorials](https://www.youtube.com/watch?v=0fKg7e37bQE) is a youtube video of tutorials for beginners.
 
 ## Contributers
 
