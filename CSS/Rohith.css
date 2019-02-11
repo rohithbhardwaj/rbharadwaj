@@ -16,10 +16,13 @@ body {
     padding: 2rem;
     background-color: lightblue;
     border-radius: 2em;
+    border-style: dashed;
+    border-radius: 2em;
+    border-color: firebrick;
   }
   
   .bgimg {
-    background-image: url("https://www.amber-bar.co.uk/app/uploads/sites/6/2017/07/More-Tumblr-Backgrounds-for-guys-light-gray.jpg");
+    
     height: 100%;
     position: relative;
     opacity: 0.85;
