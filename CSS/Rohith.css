@@ -26,6 +26,18 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-attachment: fixed; /* fixed in viewport */
+    background-attachment: fixed; 
   }
+  /*class*/
+.important{
+  color: firebrick;
+}
+.icon{
+  width:1rem;
+  height: auto;
+}
+.video{
+  margin: 1rem;
+  margin-right: 2rem;
+}
   
