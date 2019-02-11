@@ -1,5 +1,6 @@
 body {
     padding-top: 5rem;
+    margin-left: 10px;
   }
   
   body, html {
@@ -37,7 +38,7 @@ body {
 }
 .icon{
   width:1rem;
-  height: auto;
+  height: 17px;
   
 }
 .video{
@@ -47,5 +48,16 @@ body {
 #container
 {
   margin:5rem;
+}
+
+h1 {
+  border-style : solid;
+  padding-top : 1em;
+  padding-bottom : 1em;
+  padding-left: 1em;
+  background-color : rgb(146, 167, 187);
+  color : white;
+  margin-right: 20px;
+
 }
   
