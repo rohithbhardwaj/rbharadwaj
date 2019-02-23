@@ -11,7 +11,8 @@
     <!-- Link to CSS-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
         crossorigin="anonymous">
-
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="rohith.js"></script> 
         <link rel="stylesheet" href="./CSS/Rohith.css">
 
     <title>Rohith Bharadwaj</title>
@@ -35,7 +36,7 @@
                     <a class="nav-link" href="contact.html">Contact</a>
                 </li>
                 <li class="nav-item active">
-                    <a class="nav-link" href="convertor.html">Convertor</a>
+                    <a class="nav-link" href="convertor.html">Weight Conversion</a>
                 </li>
             </ul>
             <form class="form-inline mt-2 mt-md-0">
@@ -61,9 +62,20 @@
 
     <script>
         function weightConverter(valNum) {
-            document.getElementById("outputGrams").innerHTML = valNum * 1000;
+            var grams= document.getElementById("outputGrams").innerHTML = valNum * 1000;
+            alert("The Given " +valNum+" Kilograms converted to " +grams+" grams");
         }
     </script>
+
+<!-- below code is for ajax controllers> -->
+
+<h3 class="clear_fix" >
+    <P id="mouseOverme" onmouseover="OverMouse()">Place the cursor on below message</P>
+     </div> </h3>
+
+     <div class="clear_fix" >
+        <P id="mouseOverme" class="mouseOver" onmouseover="OverMouse()" onmouseout="mouseOut()">Hover me</P>
+         </div>
     
 </body>
 <hr>
