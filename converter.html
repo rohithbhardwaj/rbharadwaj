@@ -38,6 +38,9 @@
                 <li class="nav-item active">
                     <a class="nav-link" href="convertor.html">Weight Conversion</a>
                 </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Qunit.html">Qunit Testing</a>
+                  </li>
             </ul>
             <form class="form-inline mt-2 mt-md-0">
                 <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
@@ -56,19 +59,18 @@
 
     <p>
         <label id="t1">Kilograms</label>
-        <input id="inputKilograms" type="number" placeholder="Kilograms" oninput="weightConverter(this.value)" onchange="weightConverter(this.value)">
+        <input id="inputKilograms" type="number" placeholder="Kilograms" >
     </p>
+    <div class="text-center text-md-left">
+        <a class="btn btn-primary" id="calbtn" onclick=weightConverter() >Calculate</a>
+    </div>
+
     <p>Grams: <span id="outputGrams"></span></p>
 
-    <script>
-        function weightConverter(valNum) {
-            var grams= document.getElementById("outputGrams").innerHTML = valNum * 1000;
-            alert("The Given " +valNum+" Kilograms converted to " +grams+" grams");
-        }
-    </script>
+    <script src="./rohith.js">   </script>
 
 <!-- below code is for ajax controllers> -->
-
+<h1 >Ajax implementation</h1>
 <h3 class="clear_fix" >
     <P id="mouseOverme" onmouseover="OverMouse()">Place the cursor on below message</P>
      </div> </h3>
