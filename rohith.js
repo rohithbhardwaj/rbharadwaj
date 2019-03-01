@@ -3,6 +3,7 @@ function OverMouse() {
     $.ajax({
       type: 'GET',
       url: 'https://thesimpsonsquoteapi.glitch.me/quotes?count=3',
+      //url: 'https://thesimpsonsquoteapi.glitch.me/quotes',
       success: function (data) {
         $("#mouseOverme").html(data[1].quote);
       }
